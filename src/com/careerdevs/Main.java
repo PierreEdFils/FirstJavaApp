@@ -6,6 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
+
+
+        //SET1
         //Alg 1
         // System.out.println(getFirstElement(new int[] {10,1,4}));
 
@@ -21,6 +24,8 @@ public class Main {
         //Alg 5
         System.out.println(giveMeSomething("careerdevs"));
 
+        //SET2
+
         //Alg 6
         System.out.println(reverse(true));
 
@@ -34,20 +39,62 @@ public class Main {
 
         //Alg 9
         System.out.println( getCount(" Hello"));
-        //Alg 10
 
+        //  SET 2 BONUS
+
+        // Reverse the Number
+
+        // Video Length
+
+        // Difference of Max and Min
+
+        // Double Letters
+
+        // Sort Numbers
+
+        //SET3
+
+        //Alg 10
+        System.out.println(sum(10,4));
 
         //Alg 11
+        System.out.println(isSameNum(10,20));
 
         //Alg 12
-
+        System.out.println(calcAge(10));
 
         //Alg 13
+        System.out.println(helloName("Edouard"));
 
         //Alg 14
+        System.out.println(reverse(true));
 
+
+
+        // SET 3 BONUS
+
+        // Area of a Triangle
+
+        // Multiple of 100
+
+        // Capture the Rook
+
+        // SET 4
+
+        // Alg 15 Two Makes Ten
+
+
+        // Alg 16 Count Syllables
+
+
+        // Alg 17 Case Insensitive Comparison
+
+        // Alg 18 H4ck3r Sp34k
 
     }
+
+
+    //SET1
 
     //Alg 1 Return the First Element in an Array
     public static int getFirstElement(int[] arr) {
@@ -85,6 +132,7 @@ public class Main {
         return ("something " + a);
     }
 
+    //SET2
     //Alg 6 Flip the Boolean
 
     public static boolean reverse(boolean b) {
@@ -139,6 +187,86 @@ public class Main {
             }
             return vowelsCount;
         }
+
+
+    // SET 2 BONUS
+
+    // Reverse the Number
+
+    // Video Length
+
+    // Difference of Max and Min
+
+    // Double Letters
+
+    // Sort Numbers
+
+
+    //SET3
+
+    // Alg 10 Return the Sum of Two Numbers
+
+        public static int sum(int a, int b) {
+            return a+b;
+        }
+
+    // Alg 11 Are the Numbers Equal?
+
+        public static boolean isSameNum(int x, int y) {
+            return x == y;
+    }
+    // Alg 12 Convert Age to Days
+
+        public static int calcAge(int age) {
+            return age*365;
+    }
+
+    // Alg 13 Name Greeting!
+
+        public static String helloName(String name) {
+            return "Hello " + name + "!";
+    }
+
+
+    // Alg 14 Reverse the Order of a String
+
+    public static String reverse(final String str) {
+        StringBuilder strB = new StringBuilder(str);
+        String result = strB.reverse().toString();
+        return result;
+    }
+
+    // SET 3 BONUS
+
+    // Area of a Triangle
+
+    // Multiple of 100
+
+    // Capture the Rook
+
+    // SET 4
+
+    // Alg 15 Two Makes Ten
+
+        public static boolean makesTen(int a, int b) {
+            return a==10 || b==10 || a+b==10;
+    }
+
+
+    // Alg 16 Count Syllables
+
+
+    // Alg 17 Case Insensitive Comparison
+
+    // Alg 18 H4ck3r Sp34k
+
+
+    // SET 4 BONUS
+
+
+
+
+
 
 }
 
